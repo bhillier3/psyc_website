@@ -13,13 +13,11 @@ export default function Home() {
         <title>Smart Person LLC</title>
       </Head>
       <NavBar />
-      <div className="sections">
-        <HomePage />
-        <About />
-        <Treatments />
-        <Appointments />
-        <Contact />
-      </div>
+      <HomePage />
+      <About />
+      <Treatments />
+      <Appointments />
+      <Contact />
     </div>
   )
 }

@@ -1,6 +1,8 @@
 .navbar {
   background-color: #373451;
   width: 100%;
+  max-height: 5vh;
+  font-size: 2vmin;
   position: fixed;
   top: 0;
   display: inline-flex;
@@ -8,7 +10,12 @@
   align-items: center;
   color: white;
   padding: 1em;
-  overflow: hidden;
+  overflow: auto;
+  z-index: 10;
+}
+
+.wrapper {
+  height: 100%;
 }
 
 .logo {
