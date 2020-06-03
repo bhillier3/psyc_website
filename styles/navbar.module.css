@@ -1,31 +1,30 @@
 .navbar {
   background-color: #373451;
   width: 100%;
-  max-height: fit-content;
   position: fixed;
   top: 0;
   display: inline-flex;
-  justify-content: space-evenly;
+  justify-content: space-around;
   align-items: center;
   color: white;
-  padding: 20px;
+  padding: 1em;
   overflow: hidden;
 }
 
 .logo {
   font-weight: 300;
-  font-size: 24px;
+  font-size: 1.5em;
 }
 
 .info {
-  font-size: 14px;
+  font-size: 0.75em;
   letter-spacing: 0.145em;
 }
 
 .li {
   display: inline-block;
-  font-size: 18px;
-  padding-right: 40px;
+  font-size: 1em;
+  padding-right: 2em;
 }
 
 .link {
