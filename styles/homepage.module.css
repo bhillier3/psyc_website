@@ -3,10 +3,10 @@
   grid-area: homescreen;
   background-image: url('/images/mountain_lake_background.jpg');
   /* background-position: center center; */
-  background-size: 100% 100vh;
+  background-size: 100% 100vmin;
   background-repeat: no-repeat;
   width: 100%;
-  height: 100vh;
+  height: 100vmin;
 }
 /* 
 .image {
