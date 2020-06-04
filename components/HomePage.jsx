@@ -14,6 +14,10 @@ const HomePage = () => {
         <h3 className={styles.titleb}>WITH</h3>
         <h2 className={styles.titlec}>STRONG TRADITIONAL ROOTS</h2>
       </div>
+      <button className={styles.button}>About Dr. Willson</button>
+      <div className={styles.covid}>
+
+      </div>
     </section>
   )
 }
