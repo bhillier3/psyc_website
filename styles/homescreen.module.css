@@ -71,9 +71,28 @@
   padding: 2em;
   text-align: center;
   font-size: 2vmin;
+  max-height: 25%;
+  overflow: auto;
 }
 
 .covid_title {
   font-size: 1.2em;
   margin-bottom: 1em;
+}
+
+.covid::-webkit-scrollbar {
+  width: 0.7em;
+}
+.covid::-webkit-scrollbar-track {
+  background: none;
+}
+.covid::-webkit-scrollbar-thumb {
+  background: #555;
+  border-radius: 0.5em;
+}
+.covid::-webkit-scrollbar-thumb:hover {
+  background: #444;
+}
+.covid::-webkit-scrollbar-corner {
+  background: none;
 }
