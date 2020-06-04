@@ -4,7 +4,12 @@
   margin: 0;
 }
 
-/* a {
-  text-decoration: none;
-  color: 
-} */
+html {
+  font-size: 2vh;
+}
+
+a {
+  text-decoration: underline;
+  color: #58A4B0;
+  font-weight: 600;
+}

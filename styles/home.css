@@ -3,9 +3,6 @@
   grid-template-columns: 1fr 1fr;
   grid-template-rows: auto;
   grid-template-areas:
-    "homescreen homescreen";
+    "homescreen homescreen"
+    "about about";
 }
-
-/* .nav_wrapper {
-  height: fit-content;
-} */
