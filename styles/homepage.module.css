@@ -67,10 +67,10 @@
   background-color: rgba(0, 0, 0, 0.5);
   color: white;
   position: relative;
-  margin: 5vh 20vw;
+  margin: 5vh 15vw;
   padding: 2em 0;
   text-align: center;
-  font-size: 1rem;
+  font-size: 2vmin;
 }
 
 .covid_title {
