@@ -9,7 +9,7 @@ const NavBar = () => {
         <p className={styles.info}>
           828-549-8082 | 840 Suite 5 Fleming St., Hendersonville, NC 28791
         </p>
-        <h3 className={styles.logo}>THE SMART PERSON</h3>
+        {/* <h3 className={styles.logo}>THE SMART PERSON</h3> */}
         <ul className={styles.list}>
           <li className={styles.li}><Link href="/">
             <a className={styles.link}>Home</a>
