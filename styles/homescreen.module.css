@@ -13,7 +13,7 @@
   top: 10vh;
   width: fit-content;
   height: auto;
-  font-size: 2vmin;
+  font-size: 1vw;
   text-align: left;
   color: white;
   background-color: #373451;
@@ -66,14 +66,13 @@
   margin: 5vmin 15vw;
   padding: 2em;
   text-align: center;
-  font-size: 2vmin;
   max-height: 25%;
   overflow: auto;
 }
 
 .covid_title {
-  font-size: 1.2em;
   margin-bottom: 1em;
+  font-weight: 300;
 }
 
 .covid::-webkit-scrollbar {
@@ -86,7 +85,7 @@
   background: #555;
   border-radius: 0.5em;
 }
-.covid::-webkit-scrollbar-thumb:hover {
+.covid::-webkit-scrollbar-thumb:active {
   background: #444;
 }
 .covid::-webkit-scrollbar-corner {

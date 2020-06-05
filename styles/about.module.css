@@ -1,16 +1,69 @@
 .wrapper {
+  position: relative;
   grid-area: about;
+  box-sizing: border-box;
   width: 100%;
-  height: 500px;
+  height: auto;
+  padding: 5vmin 3vw;
 }
 
-.header {
-  margin-left: 5vw;
-  margin-top: 5vmin;
+.image {
+  position: absolute;
+  top: 7vmin;
+  right: 10vw;
+  width: auto;
+  max-width: 30%;
+  height: auto;
+  box-shadow: -3px 4px 5px rgba(0, 0, 0, 0.4);
 }
 
 .name {
-  margin-top: 0.7vmin;
+  margin-top: -1vmin;
   font-size: 2.5rem;
-  font-weight: 400;
+  font-weight: 300;
+}
+
+.line {
+  position: relative;
+  border-top: 1px solid black;
+  width: 17em;
+  margin-top: 0.5em;
+}
+
+.aboutme {
+  width: 55%;
+  height: auto;
+  margin: 1em 0;
+}
+
+.about_text {
+  margin-top: 0.2em;
+  width: 80%;
+}
+
+.lists_wrapper {
+  width: 100%;
+  margin-top: 1em;
+  display: inline-flex;
+  justify-content: space-between;
+  overflow: hidden;
+}
+
+.list {
+  font-size: 0.8rem;
+  padding-left: 2em;
+}
+
+.li {
+  padding-bottom: 0.5em;
+}
+
+.li_bold {
+  font-weight: 600;
+}
+
+.button {
+  position: relative;
+  margin-top: 3rem;
+  margin-left: 40%;
 }

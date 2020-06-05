@@ -10,7 +10,7 @@ const HomePage = () => {
       </div>
       <button className={styles.button}>About Dr. Willson</button>
       <div className={styles.covid}>
-        <p className={styles.covid_title}>COVID-19 UPDATE</p>
+        <h4 className={styles.covid_title}>COVID-19 UPDATE</h4>
         <p className={styles.covid_info}>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias veniam nisi dolor minus, suscipit repudiandae. Atque rem a temporibus vel repudiandae odit suscipit! Totam exercitationem impedit, dicta aliquam dignissimos et! Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias veniam nisi dolor minus, suscipit repudiandae. Atque rem a temporibus vel repudiandae odit suscipit! Totam exercitationem impedit, dicta aliquam dignissimos et! Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias veniam nisi dolor minus, suscipit repudiandae. Atque rem a temporibus vel repudiandae odit suscipit! Totam exercitationem impedit, dicta aliquam dignissimos et!</p>
       </div>
     </section>
