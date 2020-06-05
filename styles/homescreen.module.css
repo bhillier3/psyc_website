@@ -1,7 +1,7 @@
 .home {
   position: relative;
   grid-area: homescreen;
-  background-image: url('/images/mountain_lake_background.jpg');
+  background-image: url('/images/lake_background.jpg');
   background-size: 100% 100vmin;
   background-repeat: no-repeat;
   width: 100%;
@@ -73,6 +73,7 @@
 .covid_title {
   margin-bottom: 1em;
   font-weight: 300;
+  color: white;
 }
 
 .covid::-webkit-scrollbar {

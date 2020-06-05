@@ -41,7 +41,6 @@ h4 {
 }
 
 .schedule_button:hover {
-  border: 1px none none;
   background-color: #DAA49A;
   color: white;
 }
