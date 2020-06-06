@@ -1,0 +1,43 @@
+.wrapper {
+  grid-area: treatment;
+  width: 100%;
+  text-align: center;
+  box-sizing: border-box;
+  background-color: #A9BCD0;
+  padding: 5vmin 3vw;
+}
+
+.line {
+  position: relative;
+  left: 43%;
+  justify-self: space-around;
+  border-top: 1px solid rgba(60, 60, 60, 0.6);
+  width: 14%;
+  margin-top: 0.5em;
+}
+
+.eval {
+  margin-top: 1rem;
+  padding: 0 15vw;
+}
+
+.heading {
+  font-size: 1.3rem;
+}
+
+.divider {
+  position: relative;
+  border-top: 1px solid rgba(60, 60, 60, 0.5);
+  left: 30%;
+  width: 40%;
+  margin: 7vmin 0;
+}
+
+.list {
+  list-style: none;
+}
+
+.li {
+  padding: 0.3em 0;
+  font-weight: 400;
+}
