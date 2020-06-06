@@ -15,8 +15,12 @@ const Treatments = () => {
       <div>
         <h4 className={styles.heading}>Alternative Treatments</h4>
         <ul className={styles.list}>
-          <li className={styles.li}><a href="/">Neurolinguistic Programming</a></li>
-          <li className={styles.li}><a href="/">Neuroptimal</a></li>
+          <li className={styles.li}>
+            <Link><a href="/">Neurolinguistic Programming</a></Link>
+          </li>
+          <li className={styles.li}>
+            <Link><a href="/">Neuroptimal</a></Link>
+          </li>
           <li className={styles.li}>High Quality Supplements</li>
         </ul>
       </div>
