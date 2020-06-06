@@ -1,5 +1,6 @@
 import styles from '../styles/treatments.module.css';
 import utils from '../styles/utils.module.css';
+import Link from 'next/link';
 
 const Treatments = () => {
 
