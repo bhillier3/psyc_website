@@ -2,6 +2,7 @@ import Head from 'next/head';
 import NavBar from '../components/NavBar';
 import HomePage from '../components/HomePage';
 import About from '../components/About';
+import InfoSection from '../components/InfoSection';
 import Treatments from '../components/Treatments';
 import Appointments from '../components/Appointments';
 import Contact from '../components/Contact';
@@ -19,6 +20,7 @@ export default function Home() {
       <NavBar />
       <HomePage />
       <About />
+      <InfoSection />
       <Treatments />
       <Appointments />
       <Contact />

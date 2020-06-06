@@ -28,6 +28,12 @@ h4 {
   color: #333
 }
 
+h5 {
+  font-size: 1.2rem;
+  font-style: normal;
+  font-weight: 600;
+}
+
 .schedule_button {
   padding: 1em;
   font-size: 1rem;

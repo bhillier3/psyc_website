@@ -4,5 +4,6 @@
   grid-template-rows: auto;
   grid-template-areas:
     "homescreen homescreen"
-    "about about";
+    "about about"
+    "info info";
 }
