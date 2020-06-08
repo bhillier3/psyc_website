@@ -5,8 +5,36 @@
   grid-auto-flow: row;
   grid-template-areas:
     "homescreen homescreen"
+    "quote quote"
     "about about"
-    "info info"
+    "mood mood"
     "treatment treatment"
-    "appointment appointment";
+    "appointment appointment"
+    "info info"
+    "footer footer";
+}
+
+.quote_wrapper {
+  box-sizing: border-box;
+  grid-area: quote;
+  width: 100%;
+  height: auto;
+  padding: 3rem 10vw;
+  background-color: #373451;
+  color: white;
+  text-align: center;
+}
+
+.quote {
+  position: relative;
+  text-align: center;
+  color: white;
+  font-size: 1.8rem;
+  font-family: 'Cormorant SC', serif;
+  font-weight: 400;
+}
+
+.author {
+  font-family: 'Cormorant SC', serif;
+  margin-top: 0.2em;
 }

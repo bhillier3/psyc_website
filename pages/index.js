@@ -5,7 +5,8 @@ import About from '../components/About';
 import InfoSection from '../components/InfoSection';
 import Treatments from '../components/Treatments';
 import Appointments from '../components/Appointments';
-import Contact from '../components/Contact';
+import Info from '../components/Info';
+import Footer from '../components/Footer';
 
 export default function Home() {
   return (
@@ -16,14 +17,25 @@ export default function Home() {
           href="https://fonts.googleapis.com/css2?family=Neuton:ital,wght@0,200;0,300;0,400;0,700;0,800;1,400&display=swap"
           rel="stylesheet">
         </link>
+        <link 
+        href="https://fonts.googleapis.com/css2?family=Junge&display=swap" rel="stylesheet">
+        </link>
+        <link href="https://fonts.googleapis.com/css2?family=Cormorant+SC:wght@300;400;500&display=swap" rel="stylesheet"></link>
       </Head>
       <NavBar />
       <HomePage />
+      <div className="quote_wrapper">
+        <h6 className="quote">
+          You are not a drop in the ocean. You are the entire ocean in one drop.
+        </h6>
+        <p className="author">- Rumi -</p>
+      </div>
       <About />
       <InfoSection />
       <Treatments />
       <Appointments />
-      <Contact />
+      <Info />
+      <Footer />
     </div>
   )
 }

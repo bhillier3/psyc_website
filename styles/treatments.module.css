@@ -9,10 +9,10 @@
 
 .line {
   position: relative;
-  left: 43%;
+  left: 41%;
   justify-self: space-around;
   border-top: 1px solid rgba(60, 60, 60, 0.6);
-  width: 14%;
+  width: 18%;
   margin-top: 0.5em;
 }
 
@@ -22,7 +22,9 @@
 }
 
 .heading {
-  font-size: 1.3rem;
+  font-size: 1.5rem;
+  font-weight: 500;
+  color: black;
 }
 
 .divider {
@@ -30,7 +32,7 @@
   border-top: 1px solid rgba(60, 60, 60, 0.5);
   left: 30%;
   width: 40%;
-  margin: 7vmin 0;
+  margin: 5vmin 0;
 }
 
 .list {

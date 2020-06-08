@@ -31,12 +31,12 @@ const Appointments = () => {
           <h5 className={styles.price_heading}>Group Therapy</h5>
           <div className={styles.price_info}>
             <ul className={`${styles.list} ${styles.prices}`}>
-              <li className={styles.li}>....</li>
-              <li className={styles.li}>....</li>
+              <li className={styles.li}>FREE</li>
+              <li className={styles.li}>$40</li>
             </ul>
             <ul className={`${styles.list} ${styles.eval}`}>
               <li className={styles.li}>First session</li>
-              <li className={styles.li}>All other sessions</li>
+              <li className={styles.li}>Each subsequent session</li>
             </ul>
           </div>
         </div>

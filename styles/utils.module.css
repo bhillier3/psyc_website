@@ -1,8 +1,17 @@
 .section_title {
   font-style: normal;
-  font-weight: 200;
+  font-weight: 600;
+  font-size: 2rem;
+  letter-spacing: 0.03em;
+}
+
+.small_title {
+  font-style: normal;
+  font-weight: 600;
   font-size: 1.5rem;
   letter-spacing: 0.03em;
+  width: 100%;
+  text-align: center;
 }
 
 .strike {

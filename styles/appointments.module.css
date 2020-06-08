@@ -1,7 +1,7 @@
 .wrapper {
   box-sizing: border-box;
   grid-area: appointment;
-  padding: 3rem 5vw;
+  padding: 2rem 5vw 3rem;
   text-align: center;
   width: 100%;
   height: auto;
@@ -19,12 +19,14 @@
   justify-self: right;
   width: 55%;
   background-color: #DBDDE3;
+  min-width: fit-content;
 }
 
 .group {
   justify-self: left;
   background-color: #DBDDE3;
-  width: 55%
+  width: 55%;
+  min-width: fit-content;
 }
 
 .price_heading {
@@ -39,12 +41,18 @@
   text-align: left;
   padding-top: 1.5em;
   padding-bottom: 0.5em;
+  padding-right: 2em;
   width: 100%;
 }
 
 .prices {
   width: 20%;
   text-align: center;
+  min-width: fit-content;
+}
+
+.eval {
+  min-width: fit-content;
 }
 
 .list {
@@ -58,5 +66,5 @@
 }
 
 .button {
-  margin-top: 6rem;
+  margin: 6rem 0 4rem;
 }
