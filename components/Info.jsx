@@ -44,26 +44,26 @@ const Info = () => {
         <h3 className={utils.small_title}>Contact</h3>
         <ul className={styles.list}>
             <li className={styles.li}>
-              <h5>How can I schedule an appointment?</h5>
+              <h5>Schedule An Appointment</h5>
               <p>
                 <span>
-                  You can schedule your appointment with Simple Practice <Link href="/"><a>here</a></Link>.
+                  It is preferred that you schedule your appointment with Simple Practice <Link href="/"><a>here</a></Link>.
                 </span>
               </p>
-              <p>You can also call the office at <b>828-549-8082</b> to schedule appointments by phone.</p>
+              <p>You can also call the office at <b className={utils.underline}>828-549-8082</b> to schedule appointments by phone.</p>
             </li>
             <li className={styles.li}>
-              <h5>What if it's an emergency?</h5>
-              <p>If you require urgent care you may contact Dr. Willson directly at <em>913-948-1340</em>.</p>
-              <p>Continual and repeated contact to Dr. Willson can result in incurred fees.</p>
+              <h5>Crisis Situations</h5>
+              <p>If it's an urgent matter you may call and/or text Dr. Willson directly at <b className={utils.underline}>913-948-1340</b>.</p>
+              <p>Non-urgent calls and texts to Dr. Willson during non-business hours will result in additional fees.</p>
             </li>
             <li className={styles.li}>
-              <h5>Stuff</h5>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur, tempora!</p>
+              <h5>Hours</h5>
+              <p>8am - 5:30pm | Monday - Friday</p>
             </li>
             <li className={styles.li}>
-              <h5>Stuff</h5>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur, tempora!</p>
+              <h5>Address</h5>
+              <p>840 Suite 5 Fleming St., Hendersonville, NC 28791</p>
             </li>
           </ul>
       </div>
