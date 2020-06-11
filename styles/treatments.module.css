@@ -7,18 +7,25 @@
   padding: 5vmin 3vw;
 }
 
-.line {
+/* .line {
   position: relative;
   left: 41%;
   justify-self: space-around;
   border-top: 1px solid rgba(60, 60, 60, 0.6);
   width: 18%;
   margin-top: 0.5em;
-}
+} */
 
 .eval {
-  margin-top: 1rem;
+  /* margin-top: 1rem; */
   padding: 0 15vw;
+}
+
+.treatments {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-auto-rows: auto;
+  padding: 0 10vw;
 }
 
 .heading {

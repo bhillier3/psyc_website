@@ -3,13 +3,12 @@
   grid-area: info;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  grid-template-rows: repeat(2, 1fr);
-  column-gap: 5em;
-  padding: 0 0;
+  grid-auto-rows: auto;
+  padding: 0 0 3em;
 }
 
 .container {
-  padding-top: 2em;
+  padding: 2em 4em 0;
 }
 
 .list {
