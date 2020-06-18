@@ -6,7 +6,7 @@ const InfoSection = () => {
   return (
     <div className={styles.container}>
       <h3 className={`${utils.section_title} ${styles.title}`}>
-        Contributing Factors To Mood And Anxiety
+        The Quality of Your Mental Health
       </h3>
       <div className={styles.wrapper}>
         <img
@@ -25,27 +25,16 @@ const InfoSection = () => {
           alt="person standing on beach with sunrise"
         />
         <div className={styles.text}>
-          <h5>The Brain</h5>
-          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Mollitia minima ipsa eveniet temporibus, nisi nam labore provident illum velit, numquam praesentium cum assumenda, ipsum ducimus alias magnam. Molestiae repellendus aliquid dignissimos officiis eum perferendis omnis laboriosam obcaecati. Voluptatem accusamus atque, ut reiciendis cum, expedita libero velit sit rem, voluptas magni?</p>
+          <h5>Brain</h5>
+          <p>Neuroplasticity: the brain has a negative bias to protect us but stops serving us; these patterns can be broken and rewired into positive ones.</p>
         </div>
         <div className={styles.text}>
-          <h5>Chemical Imbalance</h5>
-          <ul className={styles.list}>
-            <li className={styles.li}>Cortisol</li>
-            <li className={styles.li}>Estrogen</li>
-            <li className={styles.li}>Thryoid</li>
-            <li className={styles.li}>Vitamins D, B6 and B12</li>
-          </ul>
+          <h5>Mood, Anxiety and Addicition</h5>
+          <p>There are more than 235 genes associated with bipolar, many types of anxiety, and addicition. Addiction is when you're stuck in a maladpative behavior and it doesn't mean you are a bad person.</p>
         </div>
         <div className={styles.text}>
-          <h5>Trauma and Stress</h5>
-          <ul className={styles.list}>
-            <li className={styles.li}>Concussion</li>
-            <li className={styles.li}>Relationships</li>
-            <li className={styles.li}>Family</li>
-            <li className={styles.li}>Chronic illness or injury</li>
-            <li className={styles.li}>Job</li>
-          </ul>
+          <h5>Hormones and Vitamins</h5>
+          <p>Hormones and vitamins bring the mind and body together as one. They need to be in an ideal range or we can feel moody, lack libido, and lose the capacity to manage stress.</p>
         </div>
       </div>
     </div>

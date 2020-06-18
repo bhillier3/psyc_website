@@ -18,7 +18,7 @@
 
 .eval {
   /* margin-top: 1rem; */
-  padding: 0 15vw;
+  padding: 0 17vw;
 }
 
 .treatments {
@@ -32,6 +32,7 @@
   font-size: 1.5rem;
   font-weight: 500;
   color: black;
+  margin-bottom: 0.3em;
 }
 
 .divider {

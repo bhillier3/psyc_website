@@ -21,6 +21,7 @@ export default function Home() {
         href="https://fonts.googleapis.com/css2?family=Junge&display=swap" rel="stylesheet">
         </link>
         <link href="https://fonts.googleapis.com/css2?family=Cormorant+SC:wght@300;400;500&display=swap" rel="stylesheet"></link>
+        <script src="https://widget-cdn.simplepractice.com/assets/integration-1.0.js"></script>
       </Head>
       <NavBar />
       <HomePage />

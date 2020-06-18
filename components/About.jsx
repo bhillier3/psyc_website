@@ -12,8 +12,13 @@ const About = () => {
         <p className={styles.line}></p>
       </div>
       <div className={styles.aboutme}>
-        <h4 className={styles.about_header}>Lorem ipsum dolor sit?</h4>
-        <p className={styles.about_text}>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit dicta culpa cum, mollitia ex error non nobis iste pariatur porro accusamus corporis, repellendus debitis aliquid, itaque eos incidunt blanditiis! Suscipit, autem accusamus deserunt hic et nihil vitae asperiores numquam ipsa sint enim. In vero, temporibus impedit praesentium atque reiciendis alias distinctio ab. Facilis velit saepe aperiam eius, rem numquam eligendi tempora dolor pariatur! Odio excepturi, sed harum sint omnis illum atque alias hic molestiae qui repellat nesciunt ea corrupti ipsum aliquam incidunt tenetur, perspiciatis quia ad aliquid tempora. Sed tempore repellat quam ea voluptate impedit, eos culpa omnis maiores in.</p>
+        {/* <h4 className={styles.about_header}>Lorem ipsum dolor sit?</h4> */}
+        <p className={styles.about_text}>She has practiced since 1990. She started in OBGYN but soon felt drawn to helping her postpartum patients who were suffering from depression. She asked herself, "how could such an exciting moment as having a baby become so tragic?" And with that, she layed her forceps down and has not looked back. She has never lost her passion for understanding the brain.<br/>There are three powerful principles she always keeps in mind:</p>
+        <ol className={styles.about_list}>
+          <li className={styles.about_li}>It is never just one thing.</li>
+          <li className={styles.about_li}>Always be curious.</li>
+          <li className={styles.about_li}>Listen closely to your patient, they have a lot to tell you.</li>
+        </ol>
         <div className={styles.lists_wrapper}>
           <div>
             <h4>Education</h4>

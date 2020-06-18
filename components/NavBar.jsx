@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import useRef from 'react';
 import styles from '../styles/navbar.module.css'
 
 const NavBar = () => {
