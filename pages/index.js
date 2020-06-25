@@ -6,6 +6,7 @@ import InfoSection from '../components/InfoSection';
 import Treatments from '../components/Treatments';
 import Appointments from '../components/Appointments';
 import Info from '../components/Info';
+import Contact from '../components/Contact';
 import Footer from '../components/Footer';
 
 export default function Home() {
@@ -36,6 +37,7 @@ export default function Home() {
       <Treatments />
       <Appointments />
       <Info />
+      <Contact />
       <Footer />
     </div>
   )

@@ -1,0 +1,30 @@
+.container {
+  box-sizing: border-box;
+}
+
+.image {
+  max-width: 50%;
+  height: auto;
+  position: absolute;
+  top: 6vh;
+  box-shadow: 3px 4px 5px rgba(0, 0, 0, 0.4);
+  z-index: -1;
+}
+
+.text {
+  position: absolute;
+  left: 51%;
+  top: 6vh;
+}
+
+.list {
+  list-style: none;
+}
+
+.li {
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 300;
+  letter-spacing: 0.03em;
+  padding-left: 2em;
+}

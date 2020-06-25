@@ -16,13 +16,13 @@ const InfoSection = () => {
         />
         <img
           className={styles.image}
-          src="/images/hormones.jpg"
-          alt="different colored test tubes"
+          src="/images/lonely.jpg"
+          alt="person standing on beach with sunrise"
         />
         <img
           className={styles.image}
-          src="/images/lonely.jpg"
-          alt="person standing on beach with sunrise"
+          src="/images/hormones.jpg"
+          alt="different colored test tubes"
         />
         <div className={styles.text}>
           <h5>Brain</h5>
