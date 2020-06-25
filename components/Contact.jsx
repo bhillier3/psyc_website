@@ -35,7 +35,7 @@ const Contact = () => {
           </li>
           <li className={styles.li}>
             <h5>Address</h5>
-            <p>840 Suite 5 Fleming St., Hendersonville, NC 28791</p>
+            <p>244 5th Ave W, Hendersonville, NC 28739</p>
           </li>
         </ul>
         {/* <div class="spwidget-button-wrapper"><a href="https://shawn-willson.clientsecure.me" class="spwidget-button" data-spwidget-scope-id="f4031c84-3037-422a-9b5f-2e9c4cf6237a" data-spwidget-scope-uri="shawn-willson" data-spwidget-application-id="7c72cb9f9a9b913654bb89d6c7b4e71a77911b30192051da35384b4d0c6d505b" data-spwidget-scope-global data-spwidget-autobind>Request Appointment</a></div> */}
