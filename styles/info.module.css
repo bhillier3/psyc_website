@@ -16,6 +16,10 @@
 
 .li {
   padding-top: 1.5em;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 300;
+  letter-spacing: 0.03em;
 }
 
 .image {
