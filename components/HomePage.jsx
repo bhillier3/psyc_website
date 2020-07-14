@@ -11,7 +11,7 @@ const HomePage = () => {
       <button className={styles.button}>About Dr. Willson</button>
       <div className={styles.covid}>
         <h4 className={styles.covid_title}>COVID-19 UPDATE</h4>
-        <p className={styles.covid_info}>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias veniam nisi dolor minus, suscipit repudiandae. Atque rem a temporibus vel repudiandae odit suscipit! Totam exercitationem impedit, dicta aliquam dignissimos et! Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        <p className={styles.covid_info}>Updated COVID information will be coming to the website shortly.</p>
       </div>
     </section>
   )

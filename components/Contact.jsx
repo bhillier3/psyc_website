@@ -1,5 +1,6 @@
 import styles from '../styles/info.module.css';
 import utils from '../styles/utils.module.css';
+import GoogleMapReact from 'google-map-react';
 
 const Contact = () => {
 
@@ -40,10 +41,18 @@ const Contact = () => {
         </ul>
         {/* <div class="spwidget-button-wrapper"><a href="https://shawn-willson.clientsecure.me" class="spwidget-button" data-spwidget-scope-id="f4031c84-3037-422a-9b5f-2e9c4cf6237a" data-spwidget-scope-uri="shawn-willson" data-spwidget-application-id="7c72cb9f9a9b913654bb89d6c7b4e71a77911b30192051da35384b4d0c6d505b" data-spwidget-scope-global data-spwidget-autobind>Request Appointment</a></div> */}
       </div>
-      <img
+      <div className={styles.map}>
+        <GoogleMapReact
+          bootstrapURLKeys={{ key: 'AIzaSyCWy-ApfLdGD1w2e_JtmasFPvjjsx01Gt8' }}
+          defaultCenter={{ lat: 35.3172024, lng: -82.4636343 }}
+          defaultZoom={ 18 }
+        >
+        </GoogleMapReact>
+      </div>
+      {/* <img
         src="/"
         alt="google maps"
-      />
+      /> */}
     </section>
   )
 }
