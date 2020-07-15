@@ -12,7 +12,6 @@ const About = () => {
         <p className={styles.line}></p>
       </div>
       <div className={styles.aboutme}>
-        {/* <h4 className={styles.about_header}>Lorem ipsum dolor sit?</h4> */}
         <p className={styles.about_text}>She has practiced since 1990. She started in OBGYN but soon felt drawn to helping her postpartum patients who were suffering from depression. She asked herself, "how could such an exciting moment as having a baby become so tragic?" And with that, she layed her forceps down and has not looked back. She has never lost her passion for understanding the brain.<br/>There are three powerful principles she always keeps in mind:</p>
         <ol className={styles.about_list}>
           <li className={styles.about_li}>It is never just one thing.</li>

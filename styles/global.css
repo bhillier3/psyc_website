@@ -54,3 +54,17 @@ h5 {
 .schedule_button:focus {
   outline: none;
 }
+
+@media only screen and (max-width: 750px) {
+  html {
+    font-size: 3vmin;
+  }
+
+  p {
+    font-size: 1.2rem;
+  }
+
+  h4 {
+    font-size: 2rem;
+  }
+}

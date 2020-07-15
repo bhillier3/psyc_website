@@ -87,3 +87,62 @@
   font-weight: 300;
   letter-spacing: 0.03em;
 }
+
+@media only screen and (max-width: 750px) {
+  .wrapper {
+    box-sizing: border-box;
+    text-align: center;
+  }
+
+  .image {
+    display: none;
+  }
+
+  .line {
+    margin: 0 auto;
+  }
+
+  .aboutme {
+    width: 100%;
+  }
+
+  .about_text {
+    width: 100%;
+  }
+
+  .about_list {
+    list-style: none;
+    margin: 1em 0;
+    padding-left: 0;
+  }
+
+  .about_li {
+    margin-bottom: 0.3em;
+    padding-left: 0;
+    font-weight: 400;
+    font-size: 1.2rem;
+  }
+
+  .lists_wrapper {
+    display: block;
+    margin-top: 4em;
+  }
+
+  .list {
+    list-style: none;
+    padding-left: 0;
+  }
+
+  .li {
+    padding: 0;
+    margin: 2em 0;
+  }
+
+  .specialties {
+    margin-top: 4em;
+  }
+
+  .button {
+    margin: 3rem auto 2rem;
+  }
+}
