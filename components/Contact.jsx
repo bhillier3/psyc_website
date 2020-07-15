@@ -43,7 +43,7 @@ const Contact = () => {
       </div>
       <div className={styles.map}>
         <GoogleMapReact
-          bootstrapURLKeys={{ key: 'AIzaSyCWy-ApfLdGD1w2e_JtmasFPvjjsx01Gt8' }}
+          bootstrapURLKeys={{ key: process.env.GOOGLE_MAPS_API_KEY }}
           defaultCenter={{ lat: 35.3172024, lng: -82.4636343 }}
           defaultZoom={ 18 }
         >
