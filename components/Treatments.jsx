@@ -14,7 +14,7 @@ const Treatments = () => {
       </div>
       <p className={styles.divider}></p>
       <div className={styles.treatments}>
-        <div>
+        <div className={styles.section}>
           <h4 className={styles.heading}>Alternative Treatments</h4>
           <ul className={styles.list}>
             <li className={styles.li}>

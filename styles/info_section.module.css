@@ -11,9 +11,8 @@
   box-sizing: border-box;
   display: grid;
   width: 100%;
-  height: auto;
   grid-template-columns: repeat(3, 20vw);
-  grid-template-rows: 20vw 1fr;
+  grid-template-rows: 20vw;
   justify-content: space-between;
 }
 
@@ -24,6 +23,12 @@
   font-size: 2rem; */
 }
 
+.section {
+  height: auto;
+  display: block;
+  width: 100%;
+}
+
 .image {
   object-fit: cover;
   width: 100%;
@@ -31,6 +36,7 @@
 }
 
 .text {
+  height: fit-content;
   text-align: center;
   padding-top: 1em;
 }
@@ -45,4 +51,27 @@
   font-weight: 300;
   letter-spacing: 0.03em;
   padding-bottom: 0.2em;
+}
+
+@media only screen and (max-width: 750px) {
+  .wrapper {
+    display: block;
+  }
+
+  .image {
+    object-fit: cover;
+    width: 50%;
+    height: 50%;
+    margin-left: 25%;
+  }
+
+  .section {
+    margin-bottom: 3em;
+  }
+
+  .text {
+    padding-left: 5em;
+    padding-right: 5em;
+    line-height: 1.7em;
+  }
 }

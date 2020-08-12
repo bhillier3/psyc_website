@@ -51,3 +51,28 @@
   padding: 0.3em 0;
   font-weight: 400;
 }
+
+@media only screen and (max-width: 750px) {
+  .eval {
+    padding: 0 10vw;
+  }
+
+  .heading {
+    font-weight: 600;
+    font-size: 2rem;
+    margin-bottom: 0.7em;
+  }
+
+  .treatments {
+    display: block;
+  }
+
+  .section {
+    margin-bottom: 2em;
+  }
+
+  .li {
+    font-size: 1.2rem;
+    margin-bottom: 1em;
+  }
+}
