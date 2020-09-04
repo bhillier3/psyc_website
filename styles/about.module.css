@@ -95,3 +95,20 @@
   font-weight: 300;
   letter-spacing: 0.03em;
 }
+
+.schedule_text {
+  color: #373451;
+  font-size: 1.5rem;
+  font-weight: 500;
+  margin-top: 2em;
+  padding-left: 5rem;
+  text-align: left;
+}
+
+.schedule_info {
+  color: #373451;
+  font-weight: 400;
+  margin-top: 0.5em;
+  padding-left: 5rem;
+  text-align: left;
+}

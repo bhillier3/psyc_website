@@ -6,7 +6,9 @@ const HomePage = () => {
     <section className={styles.home}>
       <div className={styles.text_container}>
         <h1 className={styles.titlea}>SHAWN WILLSON M.D.</h1>
-        <h2 className={styles.titleb}>INNOVATIVE PSYCHIATRY</h2>
+        <h2 className={styles.titleb}>
+          Integrated Psychiatry of Western North Carolina
+        </h2>
       </div>
       <button className={styles.button}>About Dr. Willson</button>
       <div className={styles.covid}>
