@@ -12,13 +12,13 @@ const About = () => {
         <p className={styles.line}></p>
       </div>
       <div className={styles.aboutme}>
-        {/* <h4 className={styles.about_header}>Lorem ipsum dolor sit?</h4> */}
-        <p className={styles.about_text}>She has practiced since 1990. She started in OBGYN but soon felt drawn to helping her postpartum patients who were suffering from depression. She asked herself, "how could such an exciting moment as having a baby become so tragic?" And with that, she layed her forceps down and has not looked back. She has never lost her passion for understanding the brain.<br/>There are three powerful principles she always keeps in mind:</p>
-        <ol className={styles.about_list}>
+        <p className={styles.about_text}>Dr. Willson started her career in Ob-Gyn in 1990 but soon gave up her forceps when she had a mother’s inability to even hold her newborn baby because of her sense of unworthiness. “This is usually the happiest day of a mother’s life.” I felt a passion and a calling to study the brain and after twenty eight years have never lost that curiosity and amazement.</p>
+        <p className={styles.about_text}>I do this by first getting to know your story. Then I do the needed lab work specific for you such as such as Cortisol and DHEA, genetic testing, mood, anxiety and cognitive screening, neurotransmitter testing, relationship patterns, nutrition,brain mapping and more. I have combined traditional care such as medications with complementary treatments to make sure I provide the very sources for resolution. For example you might be suffering from a resistant depression, tried every antidepressant to find out it is a cortisol deficiency. I have combined traditional care such as medications with complementary treatments to make sure I provide the very sources for resolution.</p>
+        {/* <ol className={styles.about_list}>
           <li className={styles.about_li}>It is never just one thing.</li>
           <li className={styles.about_li}>Always be curious.</li>
           <li className={styles.about_li}>Listen closely to your patient, they have a lot to tell you.</li>
-        </ol>
+        </ol> */}
         <div className={styles.lists_wrapper}>
           <div>
             <h4>Education</h4>
@@ -49,16 +49,29 @@ const About = () => {
           <div className={styles.specialties}>
             <h4>Specialties</h4>
             <ul className={styles.list}>
+              <li className={styles.li}><p>Bipolar</p></li>
+              <li className={styles.li}><p>Depression</p></li>
+              <li className={styles.li}><p>Trauma</p></li>
+              <li className={styles.li}><p>Anxiety</p></li>
+              <li className={styles.li}><p>LGBT</p></li>
+              <li className={styles.li}><p>Attention Deficit</p></li>
               <li className={styles.li}><p>Addiction</p></li>
-              <li className={styles.li}><p>Traumatic Brain Injury</p></li>
-              <li className={styles.li}><p>Sports Performance</p></li>
-              <li className={styles.li}><p>Adrenal Insufficiency</p></li>
-              <li className={styles.li}><p>Women's Health and Hormones</p></li>
-              <li className={styles.li}><p>Pregnancy and Postpartum</p></li>
-              <li className={styles.li}><p>Forensics</p></li>
+              <li className={`${styles.li} ${styles.soon}`}>
+                <p><strong>Coming Soon</strong>: Sports Performance!</p>
+              </li>
+            </ul>
+          </div>
+          <div className={styles.specialties}>
+            <h4>Subspecialties</h4>
+            <ul className={styles.list}>
+              <li className={styles.li}><p>Pregnancy</p></li>
+              <li className={styles.li}><p>Perimenopause</p></li>              <li className={styles.li}><p>Geriatric</p></li>
+              <li className={styles.li}><p>Head Trauma</p></li>
             </ul>
           </div>
         </div>
+        <p className={styles.schedule_text}>Let's get going! Schedule an appointment today!</p>
+        <p className={styles.schedule_info}>We offer same day appointments for urgent needs and house calls when appropriate.</p>
         <ScheduleButton styles={styles.button}/>
       </div>
       <img

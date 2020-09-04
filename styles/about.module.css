@@ -37,7 +37,7 @@
 }
 
 .about_text {
-  margin-top: 0.2em;
+  margin-top: 0.5em;
   width: 80%;
 }
 
@@ -73,6 +73,14 @@
 
 .li_bold {
   font-weight: 600;
+}
+
+.soon {
+  list-style: none;
+  white-space: nowrap;
+  position: relative;
+  left: 4em;
+  top: 1em;
 }
 
 .button {
