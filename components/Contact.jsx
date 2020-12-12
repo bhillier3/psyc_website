@@ -1,6 +1,7 @@
 import styles from '../styles/info.module.css';
 import utils from '../styles/utils.module.css';
 import GoogleMapReact from 'google-map-react';
+import { Element } from 'react-scroll';
 
 const Contact = () => {
 
