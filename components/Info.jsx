@@ -32,11 +32,11 @@ const Info = () => {
           <li className={styles.li}>
             <h5>Do I need to fill out any forms prior to my appointment?</h5>
             <p>Yes, you must fill out all of the required forms prior to your first appointment.</p>
-            <p>
+            {/* <p>
               <span>
                 The required forms can be found <Link href="/"><a>here</a></Link>.
               </span>
-            </p>
+            </p> */}
           </li>
         </ul>
       </div>

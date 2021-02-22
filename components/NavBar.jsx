@@ -8,7 +8,7 @@ const NavBar = () => {
     <div className={styles.wrapper}>
       <div className={styles.navbar}>
         <p className={styles.info}>
-          828-549-8082 | 244 5th Ave W Suite 208, Hendersonville, NC 28739
+          913-948-1340
         </p>
         {/* <h3 className={styles.logo}>THE SMART PERSON</h3> */}
         <ul className={styles.list}>
