@@ -8,7 +8,7 @@ const NavBar = () => {
     <div className={styles.wrapper}>
       <div className={styles.navbar}>
         <p className={styles.info}>
-          913-948-1340
+          828-549-8082
         </p>
         {/* <h3 className={styles.logo}>THE SMART PERSON</h3> */}
         <ul className={styles.list}>

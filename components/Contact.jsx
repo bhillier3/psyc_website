@@ -23,7 +23,7 @@ const Contact = () => {
                 </a>.
               </span>
             </p>
-            <p>You can also call Dr. Willson directly at <b className={utils.underline}>913-948-1340</b> to schedule appointments by phone.</p>
+            <p>You can also call the office at <b className={utils.underline}>828-549-8082</b> to schedule appointments by phone.</p>
             {/* <p className={styles.fax}><strong>
               Fax #</strong>: <b className={utils.underline}>828-519-5072</b>
             </p> */}
